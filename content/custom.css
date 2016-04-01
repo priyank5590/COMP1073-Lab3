@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-header {
+	min-height: 60px;
+	background-color: #0e0c17;
+}
+header {
+	background: url(../images/bg1.jpg) #6534ff;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
+	background-size: cover;
+	min-height: 620px;
+}
+/*.profile-pic {
+	margin: 130px auto 20px;
+}*/
+header img {
+	margin: 110px auto 20px;
+}
+header .title {
+	font-size: 5em;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 2px;
+}
+.code-img {
+	margin: 20px auto;
+}
+header .subtitle {
+	font-size: 3em;
+	display: block;
+	font-weight: 300;
+}
+@media screen and (max-width: 480px) {
+header .title {
+	font-size: 2.5em;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 2px;
+}
+.code-img {
+	margin: 10px auto;
+}
+header .subtitle {
+	font-size: 2em;
+	display: block;
+	font-weight: 300;
+}
+}
+section {
+	margin: auto;
+	color: #333;
+	padding: 60px 0px;
+}
+section h1 {
+	margin: 0px 0 50px;
+	color: #0e0c17;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+}
+section h1:after {
+	content: url(../images/close-bracket.png);
+}
+section h1:before {
+	content: url(../images/open-bracket.png);
+}
+section a {
+	color: #333;
+	text-align: center;
+}
+section a:hover {
+	color: #572ed5;
+	text-decoration: none;
+	transition: ease 0.3s;
+}
+section h3 {
+	color: #333;
+	text-align: center;
+}
+section p {
+	margin: 0 auto 40px;
+	text-align: center;
+}
+.aboutme {
+	background: url(../images/about-bg.jpg) #6534ff;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
+	background-size: cover;
+	padding: 80px 0px;
+	min-height: 550px;
+}
+div h1 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.me-text {
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 300;
+}
+.btn-success-custom {
+	background-color: #774ef7;
+	border-color: #683fe6;
+	color: #ffffff;
+	padding: 15px 30px;
+}
+.btn-success-custom:hover {
+	background-color: #683fe6;
+	border-color: #683fe6;
+	color: #ffffff;
+}
+.bootom-footer {
+	min-height: 60px;
+	background-color: #0e0c17;
+}
+footer p {
+	color: #FFF;
+	line-height: 70px;
+	text-align: center;
+}
+section figure {
+	background: url(../images/link.png) center;
+}
+section figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+section figure:hover img {
+	opacity: .1;
+}
+.contact .left-inner-addon {
+	position: relative;
+}
+.contact .left-inner-addon input {
+	padding-left: 30px;
+}
+.contact .left-inner-addon i {
+	position: absolute;
+	padding: 10px 12px;
+	pointer-events: none;
+}
+.contact .right-inner-addon {
+	position: relative;
+}
+.contact .right-inner-addon input {
+	padding-right: 30px;
+}
+.contact .right-inner-addon i {
+	position: absolute;
+	right: 0px;
+	padding: 17px 12px;
+	pointer-events: none;
+	color:#717171;
+}
+

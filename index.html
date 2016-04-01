@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--css files starts-->
+<link rel="stylesheet" href="content/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="content/bootstrap-theme.min.css" type="text/css">
+<link rel="stylesheet" href="content/font-awesome.css" type="text/css">
+<link rel="stylesheet" href="content/scrolling-nav.css" type="text/css">
+<link rel="stylesheet" href="content/custom.css" type="text/css"/>
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<!--css files ends-->
+
+<title>Priyank Vyas - Portfolio</title>
+</head>
+
+<body>
+<div id="top-part" >
+	<nav class="navbar top-header navbar-fixed-top ">
+		<div  class="container"> 
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand page-scroll " href="#top-part"><img src="images/pv-logo.gif" onmouseover="this.src='images/pv-logo.gif'" alt="Web Designer"/></a> </div>
+			
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="page-scroll" href="#portfolio"><i class="fa fa-folder-open"></i> Portfolio</a></li>
+					<li><a class="page-scroll" href="#about-me"><i class="fa fa-user"></i> About Me</a></li>
+					<li><a class="page-scroll" href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse --> 
+		</div>
+		<!-- /.container-fluid --> 
+	</nav>
+	
+	<!--header section-->
+	<header>
+		<div class="container"> <img class="img-responsive" src="images/profile-pic1.png" alt="Priyank Vyas"/> <span id="name" class="title">priyank Vyas</span> <span><img class="img-responsive code-img" src="images/code.png" alt="image code"/></span> <span class="subtitle">Web / UI Designer</span> </div>
+	</header>
+</div>
+
+<!-- Portfolio Section starts -->
+<section id="portfolio"  class="container">
+	<h1 id="portfolio_title">Portfolio</h1>
+	<div class="col-md-12">
+		<div class="col-md-4 portfolio-item"> <a href="http://gc200322556.computerstudi.es/project/" target="_blank">
+			<figure><img src="images/project1.jpg" alt="Project-1" width="700" height="500" class="img-responsive"></figure>
+			</a>
+			<h3> <a href="http://gc200322556.computerstudi.es/project/" target="_blank">Delight - Antique Lamps</a></h3>
+			<p id="paragraph1"></p>
+		</div>
+		<div class="col-md-4 portfolio-item"> <a href="https://play.google.com/store/apps/details?id=com.shopzgala" target="_blank">
+			<figure><img class="img-responsive" src="images/project2.jpg" width="700" height="500" alt="Shopzgala"></figure>
+			</a>
+			<h3><a href="https://play.google.com/store/apps/details?id=com.shopzgala" target="_blank">Shopzgala</a></h3>
+			<p id="paragraph2"></p>
+		</div>
+		<div class="col-md-4 portfolio-item"> <a href="http://www.workhiveapp.com/" target="_blank">
+			<figure><img class="img-responsive" src="images/project3.jpg" width="700" height="500" alt="Workhive"></figure>
+			</a>
+			<h3><a href="http://www.workhiveapp.com/" target="_blank">Workhive</a></h3>
+			<p id="paragraph3"></p>
+		</div>
+	</div>
+</section>
+<!-- Portfolio Section ends --> 
+
+<!-- About me Sections starts -->
+<div id="about-me" class="container-fluid aboutme">
+	<div class="container">
+		<div class="col-md-10 col-md-offset-1">
+			<h1 id="aboutme_title">About Me</h1>
+			<span><img class="img-responsive code-img" src="images/code.png" alt="image code"/></span>
+			<p id="paragraph4" class="me-text"></p>
+		</div>
+	</div>
+</div>
+<!-- About me Sections ends --> 
+
+<!-- contact section starts -->
+<section id="contact" class="container">
+	<h1 id="contactme_title">Contact Me</h1>
+	<div class="contact">
+		<div class="col-md-8 col-md-offset-2">
+			<form method="GET" action="index.html"> 
+				<div class="form-group">
+					<div class="right-inner-addon"> <i class="fa fa-user"></i>
+						<input class="form-control input-lg" placeholder="Name" type="text" id="userName" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="right-inner-addon"> <i class="fa fa-envelope"></i>
+						<input class="form-control input-lg" placeholder="Email Address" type="text" id="email" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="right-inner-addon"> <i class="fa fa-phone-square"></i>
+						<input class="form-control input-lg" placeholder="Phone Number" type="text" id="phone" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="right-inner-addon"> <i class="fa fa-comment"></i>
+						<textarea rows=3 class="form-control input-lg" placeholder="Message" id="message" type="text"></textarea>
+					</div>
+				</div>
+				<div class="control-group">
+				<button type="submit"  class="btn btn-success-custom btn-lg" id="submitButton">Send</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+<!-- contact section ends --> 
+
+<!-- footer section starts -->
+<footer class="bootom-footer">
+	<div class="container">
+		<p>Copyright © priyankvyas.com 2016</p>
+	</div>
+</footer>
+<!-- footer section ends --> 
+
+<!--Javascripts Files--> 
+<script src="scripts/jquery-2.2.0.min.js"></script> 
+<script src="scripts/bootstrap.min.js"></script> 
+<script src="scripts/scrolling-nav.js"></script> 
+<script src="scripts/jquery.easing.min.js"></script> 
+<script src="scripts/app.js"></script>
+<script src="scripts/projects.js"></script>
+</body>
+</html>
