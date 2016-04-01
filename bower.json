@@ -1,0 +1,23 @@
+{
+  "name": "assignment-3 - new",
+  "homepage": "https://github.com/priyank5590/COMP1073-Lab3",
+  "authors": [
+    "priyank5590 <vyaspriyank5@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6"
+  }
+}
